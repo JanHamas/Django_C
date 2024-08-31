@@ -1,3 +1,9 @@
 from django.shortcuts import render
 
-# Create your views here.
+def courseone(request):
+    data = {
+        'name':"hamas",
+        'roll':49,
+        'marks':500
+    }
+    return render(request,'courseone.html',{'data'})
