@@ -6,4 +6,4 @@ def courseone(request):
         'roll':49,
         'marks':500
     }
-    return render(request,'courseone.html',{'data'})
+    return render(request,'courseone.html',{'data':data})
