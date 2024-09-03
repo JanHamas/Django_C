@@ -4,7 +4,7 @@ import os
 import sys
 
 
-def main():asdfasfasdf
+def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project6.settings')
     try:
